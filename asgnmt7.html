@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>superhero</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #9c0b0b1f;
+            color:#161515;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, rgb(68, 65, 65), whitesmoke,rgb(131, 87, 87));
+        }
+        
+        .container{
+            width:100%;
+            height:100% ;
+            background: linear-gradient(to right, rgb(68, 65, 65), whitesmoke,rgb(131, 87, 87));
+            position: relative;
+        }
+        .screen{
+            display: flex;
+            background-color: black;
+            height: 100px;
+            margin-left: auto;
+        }
+        .screen img{
+            height: 100px;
+            width: 40%;
+            margin-left: 20%;
+        
+        }
+        .screen h1{
+            background: linear-gradient(to right, rgb(126, 36, 36),rgb(40, 40, 122),rgb(35, 94, 35));
+            color: whitesmoke;
+            font-size: .4in;
+            margin-left: 10px;            
+        }
+        h1{
+            animation: roll 4s linear infinite;
+        }
+        @keyframes roll {
+            0%{
+                transform: translateX(-100%);
+            }
+            100%{
+                transform: translateX(100%);
+            }
+        
+        }
+      .container2{
+            display: flex;
+            align-items: flex-start;
+        }
+        .left{
+             display: flex;
+           align-items: center;
+            
+        }
+        .left img{
+            background-color: black;
+            height: 500px;
+            width: 220px;
+            padding: 5px;
+                     
+        }
+        .left img:hover{
+            transform: scale(1.1);
+            transition-duration: 200ms;
+        }
+        .content{
+            margin-left: 40px;
+            flex-direction: column;
+            width: 80%;
+        }
+        .section2{
+            margin-right: 200px;        
+            color: rgb(82, 49, 49);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .virtical{
+            position: absolute;
+            top: 40.9%;
+            right: 0;
+        }.virtical1{
+            background-color: black;
+            top: 40.9%;
+            display: none;
+        }.virtical1 img{
+            width: 100%;
+            padding: 10px;
+            height: 100%;
+        }
+        .virtical img{
+            height: 420px;
+            width: 200px;
+            padding: 20px;
+            padding-right: 0px;
+            margin-top: 10px;
+        }
+        .virtical img:hover,.virtical1 img:hover{
+            transform: scale(1.1);
+            transition-duration: 200ms;
+        }
+        .contact{
+            position: absolute;
+            bottom: 20px;
+            padding-left: 20px;
+        }
+        .contact img{
+            height: 80px;
+            width: 100px;
+            color: red;
+        }
+        @media screen and (max-width:600px ) {
+            .container{
+               font-size: 12px;}
+               .virtical{ display: none;}
+               .virtical1{ display: block;}
+       .contact{
+             bottom: 90px;
+           }
+        }
+        .container3{
+            background: linear-gradient(to right, rgb(68, 65, 65), whitesmoke,rgb(131, 87, 87));
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="screen">
+            <h1>I AM VENOM</h1>
+            <img src="https://images3.alphacoders.com/932/thumbbig-932825.webp" alt="">
+        </div >
+    <div class="container2">
+        <div class="left">
+            <img src="https://picfiles.alphacoders.com/175/thumb-175127.jpg" alt="">
+        </div>
+        <div class="content">
+            <div class="section">
+                <h3>Career Objective:</h3>
+                <p>Seeking opportunities o utilize symbiote abilities fo the greater good (or chaos) in a challenging environment</p>
+            </div>
+            <div class="section">
+                <h3>Experience:</h3>
+                <p>Protecting Hosts</p>
+                <ul>
+                    <li>Bonded with various hosts to protect and, at times, control them (2018-Presents)</li>
+                </ul>
+                <p>Battling Superheros</p>
+                <ul>
+                    <li>Engaged in intense battele with Spider-man, among other, showcasing strength and adaptability (2018-presents)</li>
+                </ul>
+            </div>
+            <div class="section2">
+                <h3>Skills:</h3>
+                <h4>symbiot Enhancements:</h4>
+                <ul>
+                    <li>Shape-shifting</li>
+                    <li>Super human strength</li>
+                    <li>Regenerative healing</li>
+                    <li>Wall-crawling</li>
+                </ul>
+                <h4>Combat Skills:</h4>
+                <ul>
+                    <li>Expert hand-to-hand combatant</li>
+                    <li>Adaptability to various fighting style</li>
+                    <li>Exeptional at stiking fear into opponennts</li>
+                </ul>
+              
+                <h4>Survivability:</h4>
+                <ul>
+                    <li>resilience against various attacks</li>
+                    <li>Host servivability enhancement</li>
+                </ul>
+                <h3>Languages:</h3>
+                <ul>
+                    <li>English, Symbiote Language ( fluent)
+                    </li>
+                </ul>
+            </div>
+            
+        </div> 
+    </div>
+    <div class="virtical">
+        <img src="https://w0.peakpx.com/wallpaper/589/741/HD-wallpaper-venom-tom-hardy-marvel-venom-symbiote-thumbnail.jpg" alt="">
+    </div>
+    <div class="contact">
+        <p>Contact: venom@example.com</p>
+        <p>Phone: +91 9879879870</p>
+        <p>Twitter: twitter.com/venom</p>
+        <img src="https://cdn-icons-png.flaticon.com/128/8825/8825107.png" alt="">
+        <br/>
+        <div class="virtical1">
+            <img src="https://w0.peakpx.com/wallpaper/589/741/HD-wallpaper-venom-tom-hardy-marvel-venom-symbiote-thumbnail.jpg" alt="">
+        </div>
+    </div>
+    
+    </div>
+    <br>
+    <h2 style="text-align: center; background-color: rgb(12, 12, 14); color: whitesmoke; border-radius: 20px;">Some spacific part</h2>
+    <div class="container3">
+        <h3 style="margin-left: 100px;">venom theme aodio</h3>
+        <audio style="margin-left: 5px; margin-top: 8px;" controls>
+            <source src="mp3.mp3" type="audio/mpeg">
+        </audio>
+        <h3 style="margin-left: 200px;">Venom Trailer</h3>
+        <video style="margin-left: 10px;" width="300" height="100" controls>
+            <source src="video.mp4.mp4" type="video/ogg">
+        </video>
+    </div>
+</body>
+</html>
